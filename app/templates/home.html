@@ -1,4 +1,4 @@
-{% load static %}
+﻿{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,7 +38,7 @@
                 <p class="hero-title">{{ profile.title }}</p>
                 <p class="hero-text">{{ profile.tagline }}</p>
                 <div class="cta-row">
-                    <a href="{{ profile.resume_url }}" class="btn btn-primary">Download Resume</a>
+                    <a href="{% static profile.resume_url %}" class="btn btn-primary" download>Download Resume</a>
                     {% for social in social_links %}
                         {% if social.name == "LinkedIn" %}
                             <a href="{{ social.url }}" target="_blank" rel="noopener noreferrer" class="btn btn-outline">

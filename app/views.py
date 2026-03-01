@@ -1,4 +1,4 @@
-from django.shortcuts import render
+﻿from django.shortcuts import render
 
 def home(request):
     context = {
@@ -13,7 +13,7 @@ def home(request):
             "email": "malharpatil7975@gmail.com",
             "phone": "+91 79751 70121",
             "location": "Belagavi, Karnataka, India",
-            "resume_url": "#",
+            "resume_url": "resume/MalharCV.pdf",
             "photo": "images/DSC_503211.JPG",
         },
         "stats": [
@@ -91,3 +91,4 @@ def home(request):
     }
 
     return render(request, "home.html", context)
+
