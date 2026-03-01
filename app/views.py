@@ -18,7 +18,7 @@ def home(request):
         },
         "stats": [
             {"value": "1+", "label": "Years Learning & Building"},
-            {"value": "10+", "label": "Hands-on Mini Projects"},
+            {"value": "20+", "label": "Hands-on Mini Projects"},
             {"value": "5x", "label": "Pratibha Puraskar Award"},
         ],
         "skills": [
