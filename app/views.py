@@ -43,7 +43,7 @@ def home(request):
                     "Clear visual presentation for quick decisions",
                 ],
                 "stack": ["HTML", "CSS", "JavaScript"],
-                "link": "#",
+                "link": "https://weather-app-vercel-app.vercel.app/",
             },
             {
                 "title": "Portfolio Website (Django)",
@@ -57,7 +57,7 @@ def home(request):
                     "Production-ready section layout",
                 ],
                 "stack": ["Python", "Django", "CSS"],
-                "link": "#",
+                "link": "https://port-folio-4ex2.vercel.app/",
             },
         ],
         "education": [
