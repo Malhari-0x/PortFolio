@@ -13,7 +13,7 @@ def home(request):
             "email": "malharpatil7975@gmail.com",
             "phone": "+91 79751 70121",
             "location": "Belagavi, Karnataka, India",
-            "resume_url": "resume/MalharCV.pdf",
+            "resume_url": "resume/MalhariCV.pdf",
             "photo": "images/DSC_503211.JPG",
         },
         "stats": [
@@ -58,6 +58,20 @@ def home(request):
                 ],
                 "stack": ["Python", "Django", "CSS"],
                 "link": "https://port-folio-4ex2.vercel.app/",
+            },
+            {
+                "title": "SmartInsight",
+                "description": (
+                    "A smart analytics-focused web application built to deliver clearer insights and "
+                    "streamlined user workflows through a clean product experience."
+                ),
+                "highlights": [
+                    "Structured dashboard-oriented user interface",
+                    "Focused workflow for quick data understanding",
+                    "Built with maintainable, scalable project structure",
+                ],
+                "stack": ["Python", "Django", "Bootstrap"],
+                "link": "https://share.google/qHqfH9c5Lt0QSYboK",
             },
         ],
         "education": [
